@@ -1,0 +1,70 @@
+@media only screen and (max-width: 768px) {
+    .inactive {
+        display: none;
+    }
+    /* ul {
+        width: 100%;
+        margin: 0;
+        right: 2%;
+    } */
+    /* .liIncon {
+        width: 35%;
+    }
+    a.icon {
+        display: block;
+        font-size: 25px;
+        text-align: center;
+        box-shadow: 0px 0px 5px 0px #E9D2D2;
+    }
+    .nav.responsive {
+        position: relative;
+    }
+    .nav.responsive a.icon {
+        position: absolute;
+        right: 5;
+        top: 0;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    } */
+    .black {
+        display: none;
+    }
+    .grid-item {
+        width: 50%;
+    }
+    .paragraph {
+        text-indent: 2%;
+        text-align: justify;
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .moreInfo {
+        width: 100%;
+    }
+    .moreInfo h1 {
+        text-align: center;
+    }
+    .moreInfo .paragraph {
+        width: 100%;
+    }
+    .moreInfoButton {
+        left: 50%;
+        /* CENTREZ */
+    }
+    .grid-footer {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .content {
+        /* fonts */
+    }
+    .grid-item {
+        width: 100%;
+    }
+}
