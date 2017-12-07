@@ -1,0 +1,6 @@
+1.Am nevoie de imagini/marimea fonturilor/marimea paginilor/ce tip de font sa folosesc/
+
+2.in playground gasiti partea de UI implementata- functiile din JS nu merg pentru ca le-am oprit eu. Acel folder e doar un folder de testare.
+
+3.Folderele view si public vor fi folosite pentru stocarea partii de UI dar dupa ce codul va fi finalizat
+
