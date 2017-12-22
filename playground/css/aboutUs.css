@@ -1,0 +1,27 @@
+/* START DESPRE NOI */
+
+.about {
+    height: 350px;
+    background-image: url("../img/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.aboutUs {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    color: black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.paragraph {
+    text-indent: 2%;
+    text-align: justify;
+    width: 40%;
+    padding-left: 5%;
+}
+
+
+/* END DESPRE NOI */

@@ -1,0 +1,160 @@
+@media only screen and (max-width: 768px) {
+    .slide-container {
+        height: 300px;
+    }
+    .slidePost {
+        top: 30%;
+        width: 80%;
+        font-size: 65%;
+    }
+    .inactive {
+        display: none;
+    }
+    .grid-container {
+        height: 700px;
+    }
+    .grid-item {
+        height: 50%;
+    }
+    .grid-paragraph {
+        height: 10%;
+    }
+    .black {
+        display: none;
+    }
+    .grid-item {
+        width: 50%;
+    }
+    .about {
+        height: 400px;
+        margin-bottom: 1px;
+    }
+    .paragraph {
+        text-indent: 2%;
+        text-align: center;
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .moreInfo {
+        width: 100%;
+    }
+    .moreInfo h1 {
+        text-align: center;
+    }
+    .moreInfo .paragraph {
+        width: 100%;
+    }
+    .moreInfoButton {
+        left: 45%;
+        /* CENTREZ */
+    }
+    .grid-footer {
+        width: 100%;
+    }
+    .maps {
+        height: 700px;
+    }
+    .logoDiv {
+        width: 30%;
+        top: 10%;
+        height: 15%;
+        z-index: 20;
+    }
+    .logo {
+        position: relative;
+        top: 60%;
+        text-align: center;
+        left: 20%;
+        width: 100%;
+        height: 90%;
+        z-index: 21;
+        /* overflow: hidden; */
+    }
+    /* navigatioon */
+    ul {
+        position: absolute;
+        top: 2.5%;
+        left: 65%;
+    }
+    .icon {
+        width: 100%;
+        display: block;
+        font-size: 30px;
+        list-style-type: none;
+        color: black;
+        right: 10%;
+    }
+    /* .dropbtn {
+        background-color: grey;
+        border: none;
+        opacity: 0.4;
+    }
+    .dropbtn:hover {
+        background-color: #660E0E;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    .nav {
+        top: 10%;
+        left: 75%;
+    } */
+}
+
+@media only screen and (max-width: 400px) {
+    .slide-container {
+        height: 250px;
+    }
+    .slidePost {
+        top: 30%;
+        width: 80%;
+        font-size: 60%;
+        ;
+    }
+    ul {
+        position: absolute;
+        top: 0%;
+        left: 65%;
+    }
+    .content {
+        /* fonts */
+    }
+    .grid-container {
+        height: 600px;
+    }
+    .grid-item {
+        height: 25%;
+        width: 100%;
+    }
+    .about {
+        width: 100%;
+    }
+    .paragraph {
+        width: inherit;
+        /* white-space: pre-wrap; */
+        /* word-wrap: break-word; */
+        text-align: justify;
+        width: 90%;
+        height: 65%;
+        overflow: hidden;
+        /* padding-left: 5%; */
+        padding-right: 5%;
+        font-size: 13px;
+    }
+    .moreInfo .paragraph {
+        width: 90%;
+    }
+    .maps {
+        height: 700px;
+    }
+    /* set button to center */
+    .wrapper {
+        text-align: center;
+        /* display: flex; */
+    }
+    .black {
+        /* position: absolute;
+        top: 50%; */
+        justify-content: center;
+    }
+}

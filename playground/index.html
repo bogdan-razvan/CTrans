@@ -4,29 +4,36 @@
 <head>
     <title>Test</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styleTest.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link href="fonts/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styleTest.css">
 </head>
 
 <body>
-    <div class="content container">
+    <div class="content container slide-container">
         <img class=" slides " src="img/1.jpg ">
         <img class="slides " src="img/2.jpg ">
         <img class="slides " src="img/3.jpg ">
         <img class="slides " src="img/4.jpg ">
+        <img class="slides " src="img/5.jpg ">
+        <img class="slides " src="img/6.jpeg ">
+        <img class="slides " src="img/7.jpeg ">
         <button class="button black left ">&#10094;</button>
         <button class="button black right ">&#10095;</button>
-        <p class="logo">Logo</p>
+        <div class="logoDiv">
+            <img class="logo" src="img/logo.png">
+        </div>
+
+
         <ul id="nav" class="nav">
             <li><a class="active inactive" href="#home ">Acasa</a></li>
-            <li><a class="inactive" href="# ">Despre noi</a></li>
-            <li><a class="inactive" href="# ">Servicii</a></li>
-            <li><a class="inactive" href="# ">Contact</a></li>
+            <li><a class="inactive" href="#about">Despre noi</a></li>
+            <li><a class="inactive" href="#servicii">Servicii</a></li>
+            <li><a class="inactive" href="#contact ">Contact</a></li>
             <li class="liIncon">
                 <a href="javascript:void(0);" onclick="myFunction()" class="icon">&#9776;</a>
             </li>
         </ul>
-        <div class="slidePost ">
+        <div class="slidePost">
             <h3>LOREM IPSUM DOLOR SIT AMET</h3>
             <h1>LOREM IPSUM DOLOR SIT AMET</h1>
             <p> LOREM IPSUM DOLOR SIT AMET </p>
@@ -34,54 +41,59 @@
         </div>
     </div>
 
+    </div>
+
     <div class="grid-container container content">
 
         <div class="grid-item">
-            <p> LOGO </p>
-            <img class=" grid-logo " src="">
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <button class="button-grid hide ">MAI MULT</button>
+            <p> <i class="fa fa-truck" aria-hidden="true"></i> </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+
+            <!-- <button class="button-grid hide ">MAI MULT</button> -->
         </div>
         <div class="grid-item">
-            <p> LOGO </p>
-            <img class=" grid-logo " src="">
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <button class="button-grid hide ">MAI MULT</button>
+            <p> <i class="fa fa-truck" aria-hidden="true"></i> </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <!-- <button class="button-grid hide ">MAI MULT</button> -->
         </div>
         <div class="grid-item">
-            <p> LOGO </p>
-            <img class=" grid-logo " src="">
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <button class="button-grid hide ">MAI MULT</button>
+            <p> <i class="fa fa-truck" aria-hidden="true"></i> </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <!-- <button class="button-grid hide ">MAI MULT</button> -->
         </div>
         <div class="grid-item">
-            <p> LOGO </p>
-            <img class=" grid-logo " src="">
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <p> LOREM IPSUM DOLOR SIT AMET </p>
-            <button class="button-grid hide ">MAI MULT</button>
+            <p> <i class="fa fa-truck" aria-hidden="true"></i> </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <p class="grid-paragraph"> LOREM IPSUM DOLOR SIT AMET </p>
+            <!-- <button class="button-grid hide ">MAI MULT</button> -->
         </div>
     </div>
 
-    <div class="about">
+    <div class="about content">
+        <a name="about"></a>
         <h1 class="aboutUs">DESPRE NOI</h1>
         <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
             with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
     </div>
 
-    <div class="moreInfo">
+    <div class="moreInfo content">
+        <a name="servicii"></a>
         <h1>100% SIGUR</h1>
         <p class="paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
             It has survived not</p>
-        <button class="button-grid moreInfoButton ">MAI MULT</button>
+        <div class="wrapper">
+            <button class="button-grid moreInfoButton ">MAI MULT</button>
+        </div>
+
     </div>
 
-    <div class="container grid-container maps">
-
+    <div class="container grid-container maps content">
+        <a name="contact"></a>
         <div id="map" class="googleMaps grid-footer">
         </div>
 
@@ -98,11 +110,12 @@
 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDFjRNFtedkUxzQGEodVypKmiEkttnOwL4&callback=initMap">
     </script>
-    <script src="mapsApi.js " )></script>
-    <script src="responsive.js " )></script>
+    <script src="js/mapsApi.js " )></script>
+    <script src="js/responsive.js " )></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js " )>
     </script>
-    <script src="scriptSlide.js " )>
+    <script src="js/scriptSlide.js " )></script>
+    <script src="js/hoover.js " )>
     </script>
 
 

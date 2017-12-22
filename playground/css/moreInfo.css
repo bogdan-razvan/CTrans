@@ -1,0 +1,27 @@
+/* START  100% SIGUR*/
+
+.moreInfo {
+    width: 50%;
+    float: right;
+    height: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.moreInfo h1 {
+    padding-left: 6%;
+    padding-top: 3%;
+    padding-bottom: 6%;
+}
+
+.moreInfo .paragraph {
+    width: 70%;
+}
+
+.moreInfoButton {
+    top: 4%;
+    left: 5%;
+}
+
+
+/* END  100% SIGUR*/

@@ -1,0 +1,29 @@
+/* START FOOTER */
+
+.maps {
+    height: 350px;
+}
+
+.grid-footer {
+    float: left;
+    width: 50%;
+    height: 350px;
+    padding-bottom: 20px;
+}
+
+.grid-footer h1 {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+#map {
+    height: 350px;
+}
+
+.maps {
+    overflow: hidden;
+}
+
+
+/* END FOOTER */
